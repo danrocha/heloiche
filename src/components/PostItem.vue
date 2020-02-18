@@ -2,19 +2,25 @@
   <article>
     <div class="max-w-3xl px-6 mx-auto">
       <div class="py-8 border-b border-gray-300 sm:py-20">
-        <header class="mb-8 text-center">
-          <time :datetime="post.datetime" class="mb-2 text-xs text-gray-700 uppercase">{{ formatPublishDate(post.datetime) }}</time>
+        <header class="mb-8">
+          <time :datetime="post.datetime" class="mb-4 font-sans text-xs text-gray-700 uppercase">{{ formatPublishDate(post.datetime) }}</time>
           <h2 class="mb-1 font-sans text-3xl leading-tight sm:text-4xl sm:mb-2">
             <g-link :to="`${post.path}/`" class="font-bold text-black">{{ post.title }}</g-link>
           </h2>
           <p class="text-sm leading-normal text-gray-700 sm:text-base">
             <span v-if="post.author">por <g-link :to="`${post.author.path}/`" class="text-gray-700 capitalize border-b border-transparent hover:border-gray-400 transition-border-color" v-if="post.author">{{ titleCase(post.author.title) }}</g-link></span>
-            <span v-if="post.tags && post.tags.length > 0"> em <g-link :to="`${post.tags[0].path}/`" class="text-gray-700 capitalize border-b border-transparent hover:border-gray-400 transition-border-color">{{ titleCase(post.tags[0].title) }}</g-link></span>
-            <span v-if="post.author || (post.tags && post.tags.length > 0)"> · </span>
+            <ul v-if="post.tags && post.tags.length > 0" class="flex">
+              <li>em&nbsp;</li>
+              <li v-for="(tag, i) in post.tags" :key="tag">
+                <g-link :to="`${tag.path}/`" class="text-gray-700 capitalize border-b border-transparent hover:border-gray-400 transition-border-color">{{ titleCase(tag.title) }}</g-link>
+                <span v-if="post.tags.length-1 > i">&nbsp;·&nbsp;</span>
+              </li>
+            </ul>
+            <!-- <span v-if="post.author || (post.tags && post.tags.length > 0)"> · </span> -->
             <!-- <span>{{ post.timeToRead }} min read</span> -->
           </p>
         </header>
-        <p class="px-2 text-lg leading-normal text-gray-700 sm:px-4 md:px-10" v-html="excerpt(post, 280, ' ...')"></p>
+        <p class="text-lg leading-normal text-left text-gray-700" v-html="excerpt(post, 280, ' ...')"></p>
       </div>
     </div>
   </article>
@@ -22,6 +28,7 @@
 
 <script>
 import moment from 'moment'
+import 'moment/locale/pt-br'
 
 export default {
   props: ['post'],
@@ -51,3 +58,4 @@ export default {
   },
 }
 </script>
+

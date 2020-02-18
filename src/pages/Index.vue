@@ -3,12 +3,17 @@
     <main>
       <header>
         <div class="max-w-xl px-6 py-10 mx-auto text-center border-b border-gray-300 md:max-w-3xl xl:max-w-4xl md:py-32">
-          <h1 class="mb-1 font-sans text-4xl font-bold sm:text-5xl md:text-6xl">
-            <g-link to="/" class="text-black">Heloiche Lê</g-link>
+          <h1 class="mb-1 text-6xl font-semibold font-logo sm:text-5xl md:text-6xl">
+            <g-link to="/" class="text-black">Heloiche</g-link>
           </h1>
-          <p class="text-lg text-gray-700 sm:text-3xl">Leituras de uma avó arteira</p>
+          <p class="font-sans text-lg text-gray-700 sm:text-3xl">Avó 👵🏼, arteira 🧶, e leitora voraz 📚</p>
         </div>
       </header>
+      <section>
+        <div class="max-w-3xl px-6 py-8 mx-auto text-lg text-gray-700 border-b border-gray-300">
+          <mailchimp-form class="max-w-md mx-auto text-center"/>
+        </div>
+      </section>
       <section>
         <post-item v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
       </section>
@@ -23,10 +28,12 @@ import config from '~/.temp/config.js'
 import SiteFooter from '@/components/Footer'
 import PostItem from '@/components/PostItem'
 import Pagination from '@/components/Pagination'
+import MailchimpForm from '@/components/MailchimpForm'
 
 export default {
   components: {
     PostItem,
+    MailchimpForm,
     Pagination,
     SiteFooter,
   },
@@ -79,11 +86,6 @@ export default {
           path
           cover
           tags {
-            id
-            title
-            path
-          }
-          author {
             id
             title
             path
