@@ -1,10 +1,10 @@
 ---
-title: "📚 Dicas de livros para presentear neste natal" # required
+title: "Dicas de livros para presentear neste natal" # required
 slug: livros-para-presentar-no-natal
 description: "Chegamos ao final de 2019! Ano difícil, mas com boas leituras, o que sempre nos ajuda a entender ou fugir ou viver outras realidades melhores ou piores." 
 date: 2019-12-25 09:00:00 
 author: Heloisa
-tags: ['Heloiche Lê'] 
+tags: ['📚Heloiche Lê'] 
 # cover: ./imgs/090220-heloiche-le.png # optional parallax post cover image
 # fullscreen: false # optional - when `true`, makes parallax cover image take up full viewport height
 excerpt: "Chegamos ao final de 2019! Ano difícil, mas com boas leituras, o que sempre nos ajuda a entender ou fugir ou viver outras realidades melhores ou piores." 

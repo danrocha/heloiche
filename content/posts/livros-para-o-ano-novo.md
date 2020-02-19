@@ -1,10 +1,10 @@
 ---
-title: "📚 Dois livros para começar 2020 com o pé direito" # required
+title: "Dois livros para começar 2020 com o pé direito" # required
 slug: livros-para-o-ano-novo
 description: "Ano novo e sempre uma nova esperança de diminuir a pilha de livros a ler, o que dificilmente acontece. Começo o ano com 50 e termino com 80! Mas claro, vale a promessa de que em 2020 será diferente..." 
 date: 2020-01-12 09:00:00 
 author: Heloisa
-tags: ['Heloiche Lê'] 
+tags: ['📚Heloiche Lê'] 
 # cover: ./imgs/090220-heloiche-le.png # optional parallax post cover image
 # fullscreen: false # optional - when `true`, makes parallax cover image take up full viewport height
 excerpt: "Ano novo e sempre uma nova esperança de diminuir a pilha de livros a ler, o que dificilmente acontece. Começo o ano com 50 e termino com 80! Mas claro, vale a promessa de que em 2020 será diferente..." # optional

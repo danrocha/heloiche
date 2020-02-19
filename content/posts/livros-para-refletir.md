@@ -1,10 +1,10 @@
 ---
-title: "📚 Três livros para nos ajudar a refletir o presente 🤔" # required
+title: "Três livros para nos ajudar a refletir o presente" # required
 slug: livros-para-refletir
 description: "Em dia de Oscars, não tem como não pensar em livros que inspiraram grandes filmes; temos os livros que são adaptados para o cinema e também os filmes que nos motivam a fazer leituras: ou do livro que os originou, ou de temas que ele trata." 
 date: 2020-01-26 09:00:00 
 author: Heloisa
-tags: ['Heloiche Lê'] 
+tags: ['📚Heloiche Lê'] 
 # cover: ./imgs/090220-heloiche-le.png # optional parallax post cover image
 # fullscreen: false # optional - when `true`, makes parallax cover image take up full viewport height
 excerpt: "Nessa semana mais uma vez conturbada por erros e falas de governantes ineptos que nos rodeiam aqui no Brasil e no mundo, uma ficou martelando em minha cabeça e me fez conectar diversas leituras que fiz." # optional
