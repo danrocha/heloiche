@@ -1,5 +1,5 @@
 ---
-title: "Sobre livros e filmes 🎞 📚" # required
+title: "📚 Sobre livros e filmes 🎞" # required
 slug: filmes-e-livros # optional, override the auto-generated post slug
 description: "Em dia de Oscars, não tem como não pensar em livros que inspiraram grandes filmes; temos os livros que são adaptados para o cinema e também os filmes que nos motivam a fazer leituras: ou do livro que os originou, ou de temas que ele trata." # required, used in meta tags and RSS feed
 date: 2020-02-09 09:00:00 # required; time is optional, but recommended for the <time> tag and better post sorting control
