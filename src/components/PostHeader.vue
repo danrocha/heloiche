@@ -33,7 +33,7 @@
     </div>
     <nav class="absolute top-0 left-0 z-20 mt-6 ml-6">
       <!-- <g-link to="/" :class="[post.cover ? 'text-white border-white' : 'text-gray-900 border-gray-400']" class="px-4 py-2 text-sm transition-opacity border rounded-full opacity-75 hover:opacity-100">&larr; Home</g-link> -->
-      <g-link to="/"  class="px-4 py-2 text-sm text-gray-900 transition-opacity border border-gray-400 rounded-full opacity-75 hover:opacity-100">&larr; Home</g-link>
+      <g-link to="/"  class="px-4 py-2 text-sm text-gray-900 transition-opacity border border-gray-400 rounded-full opacity-75 hover:opacity-100">&larr; Voltar</g-link>
     </nav>
   </header>
 </template>
