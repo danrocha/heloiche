@@ -10,8 +10,8 @@
         </div>
       </header>
       <section>
-        <div class="max-w-3xl px-6 py-8 mx-auto text-lg text-gray-700 border-b border-gray-300">
-          <mailchimp-form class="max-w-md mx-auto text-center"/>
+        <div class="max-w-3xl px-6 py-8 mx-auto text-lg text-gray-700 bg-gray-100 border-b border-gray-300 sm:bg-white">
+          <mailchimp-form/>
         </div>
       </section>
       <section>
@@ -39,7 +39,8 @@ export default {
   },
   metaInfo () {
     return {
-      title: this.$static.metadata.siteName,
+      title: `${this.$static.metadata.siteName} - Avó, arteira, e leitora voraz`,
+      titleTemplate: null,
       meta: [
         { property: "og:type", content: 'website' },
         { property: "og:title", content: this.$static.metadata.siteName },
