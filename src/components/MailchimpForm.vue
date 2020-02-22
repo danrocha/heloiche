@@ -23,7 +23,7 @@
         <label for="mce-EMAIL" class="font-sans text-sm">Email </label>
         <input type="email" value="" name="EMAIL" class="w-full p-2 font-sans text-base border rounded shadow-inner" id="mce-EMAIL" placeholder="Email"/>
       </p>
-      <p class="flex flex-wrap items-center justify-between">
+      <p>
         <input
           type="submit"
           value="Assinar"
@@ -31,12 +31,6 @@
           id="mc-embedded-subscribe"
           class="px-4 py-1 text-teal-400 bg-white border border-teal-400 rounded-full cursor-pointer hover:text-white hover:bg-teal-400"
         />
-        <a
-          href="https://us20.campaign-archive.com/home/?u=098dc617c09a7514b2f1ca78d&id=77c52737df"
-          title="View previous campaigns"
-          class="text-base text-gray-700 underline"
-          >Veja as edições anteriores.</a
-        >
       </p>
       <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
       <div style="position: absolute; left: -5000px;" aria-hidden="true">
