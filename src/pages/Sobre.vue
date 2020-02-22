@@ -61,6 +61,9 @@
             <a href="https://twitter.com/heloisavrocha">Twitter</a>.
           </p>
         </div>
+        <div class="pt-8 mt-8 border-t">
+          <mailchimp-form />
+        </div>
       </article>
       <site-footer class="pb-8 sm:pb-10" />
     </main>
@@ -70,9 +73,11 @@
 <script>
 import config from '~/.temp/config.js'
 import SiteFooter from '@/components/Footer'
+import MailchimpForm from '@/components/MailchimpForm'
 
 export default {
   components: {
+    MailchimpForm,
     SiteFooter
   },
   metaInfo() {
