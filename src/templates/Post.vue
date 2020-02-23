@@ -80,6 +80,8 @@
             </div>
           </div> -->
           <div class="block w-full h-8">&nbsp;</div>
+          <mailchimp-form-simple />
+          <div class="block w-full h-8">&nbsp;</div>
           <div class="w-full">
             <vue-disqus
               shortname="heloiche"
@@ -102,10 +104,12 @@ import Alert from '@/components/Alert'
 import slugify from '@sindresorhus/slugify'
 import SiteFooter from '@/components/Footer'
 import PostHeader from '~/components/PostHeader'
+import MailchimpFormSimple from '~/components/MailchimpFormSimple'
 
 export default {
   components: {
     Alert,
+    MailchimpFormSimple,
     PostHeader,
     SiteFooter
   },
