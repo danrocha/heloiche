@@ -6,3 +6,6 @@ node_modules
 dist
 static/feed.xml
 .DS_Store
+
+# Local Netlify folder
+.netlify
