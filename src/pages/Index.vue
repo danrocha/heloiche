@@ -3,9 +3,11 @@
     <main>
       <header>
         <div class="max-w-xl px-6 py-10 mx-auto text-center border-b border-gray-300 md:max-w-3xl xl:max-w-4xl md:py-32">
-          <h1 class="mb-1 text-6xl font-semibold font-logo sm:text-5xl md:text-6xl">
-            <g-link to="/" class="text-black">Heloiche</g-link>
-          </h1>
+          <g-link to="/" class="text-black">
+            <h1 class="mb-1 text-6xl font-semibold font-logo sm:text-5xl md:text-6xl">
+            Heloiche
+            </h1>
+          </g-link>
           <p class="font-sans text-lg text-gray-700 sm:text-3xl">Avó 👵🏼, arteira 🧶, e leitora voraz 📚</p>
         </div>
       </header>
