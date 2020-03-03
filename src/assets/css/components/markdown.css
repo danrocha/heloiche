@@ -41,20 +41,6 @@
     }
   }
 
-  pre.shiki {
-    @apply bg-gray-codeblock !important;
-    @apply p-6 mb-4 -mx-6 overflow-x-auto scrolling-touch font-mono text-sm border border-gray-300 leading-code;
-  }
-
-  code.shiki {
-    @apply bg-gray-100 text-gray-700 !important;
-    @apply block p-4 mb-4 overflow-x-auto scrolling-touch font-mono text-sm border border-gray-300 leading-code;
-  }
-
-  .shiki-inline {
-    @apply bg-gray-100 text-gray-700 !important;
-    @apply px-2 py-1 text-xs border border-gray-300 rounded;
-  }
 
   mark {
     @apply px-2 bg-yellow-300;

@@ -4,22 +4,6 @@ module.exports = {
   siteUrl: 'https://heloiche.com',
   titleTemplate: `%s | Heloiche`,
   icon: 'src/favicon.png',
-
-  transformers: {
-    remark: {
-      externalLinksTarget: '_blank',
-      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-      plugins: [
-        [
-          'gridsome-plugin-remark-shiki',
-          {
-            theme: 'min-light'
-          }
-        ]
-      ]
-    }
-  },
-
   plugins: [
     {
       use: '@gridsome/vue-remark',
@@ -38,14 +22,6 @@ module.exports = {
             create: true
           }
         },
-        plugins: [
-          [
-            'gridsome-plugin-remark-shiki',
-            {
-              theme: 'min-light'
-            }
-          ]
-        ]
       }
     },
     {

@@ -1,3 +1,10 @@
 ::selection {
   @apply text-white bg-black;
 }
+
+html {
+  @apply h-full;
+}
+body {
+  @apply font-serif antialiased;
+}
