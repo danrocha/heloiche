@@ -82,12 +82,12 @@
           <div class="block w-full h-8">&nbsp;</div>
           <mailchimp-form-simple />
           <div class="block w-full h-8">&nbsp;</div>
-          <div class="w-full">
+          <!-- <div class="w-full">
             <vue-disqus
               shortname="heloiche"
               :identifier="$page.post.title"
             ></vue-disqus>
-          </div>
+          </div> -->
         </footer>
       </article>
 
