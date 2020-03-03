@@ -6,5 +6,5 @@ html {
   @apply h-full;
 }
 body {
-  @apply font-serif antialiased;
+  @apply font-serif antialiased text-gray-900;
 }

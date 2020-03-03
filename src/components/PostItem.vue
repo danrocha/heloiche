@@ -13,7 +13,7 @@
             <span v-if="post.author">por <g-link :to="`${post.author.path}/`" class="text-gray-700 capitalize border-b border-transparent hover:border-gray-400 transition-border-color" v-if="post.author">{{ titleCase(post.author.title) }}</g-link></span>
             <ul v-if="post.tags && post.tags.length > 0" class="flex">
               <li>em&nbsp;</li>
-              <li v-for="(tag, i) in post.tags" :key="tag">
+              <li v-for="(tag, i) in post.tags" :key="i">
                 <g-link :to="tag.path" class="text-gray-700 capitalize border-b border-transparent hover:border-gray-400 transition-border-color">{{ titleCase(tag.title) }}</g-link>
                 <span v-if="post.tags.length-1 > i">&nbsp;·&nbsp;</span>
               </li>
