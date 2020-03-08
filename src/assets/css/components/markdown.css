@@ -71,10 +71,10 @@
   }
 
   .g-image + noscript + em {
-    @apply pb-12 text-sm;
+    @apply pb-12 mx-auto text-sm;
   }
   .g-image {
-    @apply w-full mt-8;
+    @apply mx-auto mt-8;
   }
 }
 
