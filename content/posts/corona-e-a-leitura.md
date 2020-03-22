@@ -1,5 +1,5 @@
 ---
-title: 'O Corona e a Leitura'
+title: 'Leitura em tempos de Corona'
 slug: corona-e-a-leitura
 description: 'Fazer da crise uma oportunidade?'
 date: 2022-03-08 09:00:00
