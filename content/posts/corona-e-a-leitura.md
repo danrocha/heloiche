@@ -2,7 +2,7 @@
 title: 'Leitura em tempos de Corona'
 slug: corona-e-a-leitura
 description: 'Fazer da crise uma oportunidade?'
-date: 2020-03-08 09:00:00
+date: 2020-04-08 09:00:00
 author: Heloisa # optional
 tags: ['📚Heloiche Lê'] # optional
 cover: ./imgs/200322-heloiche-le.png # optional parallax post cover image
