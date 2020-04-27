@@ -24,12 +24,12 @@ module.exports = {
         },
       }
     },
-    {
-      use: '@gridsome/plugin-google-analytics',
-      options: {
-        id: 'UA-158630225-1'
-      }
-    },
+    // {
+    //   use: '@gridsome/plugin-google-analytics',
+    //   options: {
+    //     id: 'UA-158630225-1'
+    //   }
+    // },
     {
       use: '@gridsome/plugin-sitemap',
       options: {
@@ -41,7 +41,7 @@ module.exports = {
       options: {
         contentTypeName: 'Post',
         feedOptions: {
-          title: 'Heloiche - Avó, ateira, e leitora voraz',
+          title: 'Heloiche - Avó, arteira, e leitora voraz',
           feed_url: 'https://heloiche.com/feed.xml',
           site_url: 'https://heloiche.com/'
         },
