@@ -48,38 +48,36 @@ E a poesia, como é boa companheira em dias solitários. Muitos poetas estão em
 <a href="https://www.amazon.com.br/Toda-poesia-Paulo-Leminski/dp/8535922237/ref=as_li_ss_il?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=SUQJYIYKR7BW&keywords=toda+poesia+paulo+leminski&qid=1589136529&sprefix=toda+poe,aps,225&sr=8-1&linkCode=li3&tag=heloiche01-20&linkId=abf0758c91fc2826c4cd70482902c0d9&language=pt_BR" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=8535922237&Format=_SL250_&ID=AsinImage&MarketPlace=BR&ServiceVersion=20070822&WS=1&tag=heloiche01-20&language=pt_BR" ></a>
 </book>
 
-> **Incenso fosse Música**
-> isso de querer
-> ser exatamente aquilo
-> que a gente é
-> ainda vai
+> **Incenso fosse Música**<br>  
+> isso de querer  
+> ser exatamente aquilo  
+> que a gente é  
+> ainda vai  
 > nos levar além
 
 Em **_[Toda Poesia](https://amzn.to/2LhkOkB)_**, é possível encontrar tudo que foi escrito e publicado por Leminski. Poeta curitibano que nasceu em 1944 e faleceu em 1989. Com um texto curto, mas sempre com muita profundidade, percorrer as  páginas deste livro é uma viagem por sentimentos que perpassam cada poesia. São assuntos como o amor, a vida, alegrias, medos, tristezas, que permeiam o cotidiano de cada um de nós.
 
-> **Contranarciso**
-> em mim
-> eu vejo o outro
-> e outro
-> e outro
-> enfim dezenas
-> trens passando
-> vagões cheios de gente
-> centenas
->
-> o outro
-> que há em mim
-> é você
-> você
-> e você
->
-> assim como
-> eu estou em você
-> eu estou nele
-> em nós
-> e só quando
-> estamos em nós
-> estamos em paz
+> **Contranarciso**<br>  
+> em mim  
+> eu vejo o outro  
+> e outro  
+> e outro  
+> enfim dezenas  
+> trens passando  
+> vagões cheios de gente  
+> centenas<br>  
+> o outro  
+> que há em mim  
+> é você  
+> você  
+> e você<br>  
+> assim como  
+> eu estou em você  
+> eu estou nele  
+> em nós  
+> e só quando  
+> estamos em nós  
+> estamos em paz  
 > mesmo que estejamos a sós
 
 Rebeca Fuks (Doutora em Estudos da Cultura), [a respeito do poema acima](https://www.culturagenial.com/leminski-melhores-poemas/):
@@ -96,12 +94,12 @@ Também vale conferir o poema Contranarciso recitado pelo ator Guilherme Weber [
 
 Poderia ficar muito tempo escolhendo poemas do Leminsky, mas termino com um que recito diariamente quando ouço e respeito o necessário fique em casa:
 
-> **Não Discuto**
+> **Não Discuto**<br>
+
+> não discuto  
+> o destino<br>
 >
-> não discuto
-> o destino
->
-> o que pintar
+> o que pintar  
 > eu assino
 
 Feliz dia das mães!
