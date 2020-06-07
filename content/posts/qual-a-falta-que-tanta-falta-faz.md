@@ -1,13 +1,13 @@
 ---
 title: 'Qual é a falta que tanta falta faz?'
 slug: qual-a-falta-que-tanta-falta-faz
-description: 'Shel Silverstein e sua literatura infantil ideal para adultos.'
+description: Shel Silverstein e sua literatura infantil ideal para adultos.
 date: 2020-06-07 09:00:00
 author: Heloisa # optional
 tags: ['📚Heloiche Lê'] # optional
 # cover: ./imgs/200510-heloiche-le.png # optional parallax post cover image
 fullscreen: false # optional - when `true`, makes parallax cover image take up full viewport height
-excerpt: Shel Silverstein e sua literatura infantil ideal para adultos.' # optional
+excerpt: Shel Silverstein e sua literatura infantil ideal para adultos. # optional
 ---
 
 import Book from '~/components/Book.vue'
@@ -20,7 +20,7 @@ Terminamos a conversa, depois de muito falar sobre o que estávamos vivendo, do 
 
 Nos próximos dias completo 90 dias isolada em minha casa. Me sinto como o Gradiardo, do lindo livro de pequenos poemas do **[Shel Silverstein](https://youtu.be/6br91GvkBO0)**.
 
-<book title="Fuja do Garabuja: E outros seres fant&aacute;sticos" author="Shel Silverstein" link="https://amzn.to/30dVAMF">
+<book title="Fuja do Garabuja: E outros seres fantásticos" author="Shel Silverstein" link="https://amzn.to/30dVAMF">
 <a target="_blank"  href="https://www.amazon.com.br/gp/product/8574069108/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=8574069108&linkCode=as2&tag=heloiche01-20&linkId=766913f4669489455d5bfa8861f9d67e"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=BR&ASIN=8574069108&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=heloiche01-20" ></a>
 </book>
 
