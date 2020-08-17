@@ -3,40 +3,45 @@
     <figure class="z-10 flex-none shadow-lg">
       <slot></slot>
     </figure>
-    <div class="hidden w-full pb-2 pl-20 -ml-16 bg-gray-200 border-t border-b sm:block">
-      <h4><a :href="link" target="_blank">{{title}}</a></h4>
-      <p class="-mt-6">{{author}}</p>
-      <p><a :href="link" target="_blank">Ver na Amazon &rarr;</a></p>
+    <div
+      class="hidden w-full pb-2 pl-20 -ml-16 bg-gray-200 border-t border-b sm:block"
+    >
+      <h4>
+        <a :href="link" target="_blank">{{ title }}</a>
+      </h4>
+      <p class="-mt-6">{{ author }}</p>
+      <p><a :href="link" target="_blank">Mais detalhes &rarr;</a></p>
     </div>
-    <div class="w-full pt-16 -mt-16 text-center bg-gray-200 border-t border-b sm:hidden">
-      <h4><a :href="link" target="_blank">{{title}}</a></h4>
-      <p class="-mt-6">{{author}}</p>
-      <p><a :href="link" target="_blank">Ver na Amazon &rarr;</a></p>
+    <div
+      class="w-full pt-16 -mt-16 text-center bg-gray-200 border-t border-b sm:hidden"
+    >
+      <h4>
+        <a :href="link" target="_blank">{{ title }}</a>
+      </h4>
+      <p class="-mt-6">{{ author }}</p>
+      <p><a :href="link" target="_blank">Mais detalhes &rarr;</a></p>
     </div>
   </article>
 </template>
 
 <script>
-  export default {
-    name: 'Book',
-    props: {
-      title: {
-        type: String,
-        default: ''
-      },
-      author: {
-        type: String,
-        default: ''
-      },
-      link: {
-        type: String,
-        default: ''
-      },
+export default {
+  name: 'Book',
+  props: {
+    title: {
+      type: String,
+      default: ''
     },
-
+    author: {
+      type: String,
+      default: ''
+    },
+    link: {
+      type: String,
+      default: ''
+    }
   }
+}
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
